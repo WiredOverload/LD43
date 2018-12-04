@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "amd"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "main.ts",
+        "player.ts",
+        "astronaut.ts",
+        "mine.ts",
+        "explosion.ts",
+        "debris.ts"
+    ]
+}

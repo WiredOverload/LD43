@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LD43</title>
+    <link rel="stylesheet" href="style.css">
+    <body style="background-color:black;"></body>
+  </head>
+
+  <body>
+    <h1 id="TICKS", style="color:white">Click to Play</h1>
+    <br>
+    <div id="container"> <!-- horizontal centering (margin:auto) -->
+      <div class="sidebar"> <!-- keep in screen when zooming (position:fixed) -->
+        <canvas style=
+          "border:0px solid white; margin:0; padding:0; position:relative; left:50px; top:50px; width:1024px; height:512px" 
+          id="imgCanvas" width="1024" height="512"></canvas>
+      </div>
+    </div>
+    <script data-main="main" src="./lib/require.js"></script>
+  </body>
+</html>
